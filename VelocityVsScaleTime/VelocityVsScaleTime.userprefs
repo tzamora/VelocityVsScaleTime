@@ -1,11 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/CanonBulletController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/GuiController.cs">
     <Files>
-      <File FileName="Assets/scripts/CanonController.cs" Line="64" Column="52" />
-      <File FileName="Assets/scripts/CanonBulletController.cs" Line="37" Column="5" />
-      <File FileName="Assets/utils/UnityExtensions.cs" Line="82" Column="10" />
-      <File FileName="Assets/GuiController.cs" Line="16" Column="49" />
+      <File FileName="Assets/scripts/CanonController.cs" Line="69" Column="1" />
+      <File FileName="Assets/scripts/CanonBulletController.cs" Line="14" Column="39" />
+      <File FileName="Assets/scripts/CanonController.cs" Line="82" Column="1" />
+      <File FileName="Assets/scripts/GuiController.cs" Line="27" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
