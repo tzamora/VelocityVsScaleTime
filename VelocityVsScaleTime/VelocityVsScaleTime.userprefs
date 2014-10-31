@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/CanonBulletController.cs">
+    <Files>
+      <File FileName="Assets/scripts/CanonController.cs" Line="64" Column="52" />
+      <File FileName="Assets/scripts/CanonBulletController.cs" Line="37" Column="5" />
+      <File FileName="Assets/utils/UnityExtensions.cs" Line="82" Column="10" />
+      <File FileName="Assets/GuiController.cs" Line="16" Column="49" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
