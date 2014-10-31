@@ -6,7 +6,7 @@ using System;
 
 public class CanonController : MonoBehaviour {
 
-	public float speed;
+	public float speed = 10f;
 
 	public Transform bulletStartPosition;
 
@@ -50,13 +50,12 @@ public class CanonController : MonoBehaviour {
 
 			Shoot();
 
-			yield return new WaitForSeconds(3f);
+			yield return new WaitForSeconds(0.1f);
 
 		}
 
 	}
-	
-	// Update is called once per frame
+
 	void Shoot () {
 
 		if (bulletPool.Count > 0) {
@@ -65,10 +64,9 @@ public class CanonController : MonoBehaviour {
 
 			bullet.init();
 
+			bullet.rigidbody.velocity = new Vector3 (1f, 1f, 0f) * speed;
+
 			bullet.transform.position = bulletStartPosition.position;
-
-			//bullet.GetComponent<Rigidbody>().velocity = new Vector3(1f,1f,0f) * speed;
-
 		}
 
 	}
