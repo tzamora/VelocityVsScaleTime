@@ -64,6 +64,8 @@ public class CanonController : MonoBehaviour {
 
 			bullet.init();
 
+			//bullet.rigidbody.drag = bullet.rigidbody.drag
+
 			bullet.rigidbody.velocity = new Vector3 (1f, 1f, 0f) * speed * (1f / Time.timeScale);
 
 			print ("---> " + bullet.rigidbody.velocity);
